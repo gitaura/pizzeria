@@ -12,6 +12,6 @@ public class Pizza {
     }
 
     public void setSauce(String sauce) {
-        this.sauce = sauce;
+        this.sauce =  sauce;
     }
 }

@@ -3,8 +3,8 @@ public class Pizza {
     private String topping;
     private String sauce;
 
-    public void setDought(String dought) {
-        this.dough = dought;
+    public void setDough(String dought) {
+        this.dough = dough;
     }
 
     public void setTopping(String topping) {

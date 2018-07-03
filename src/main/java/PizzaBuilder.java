@@ -2,6 +2,10 @@ public abstract class PizzaBuilder {
 
     protected Pizza pizza;
 
+    public Pizza getPizza() {
+        return pizza;
+    }
+
     public PizzaBuilder(){
         pizza = new Pizza();
     }

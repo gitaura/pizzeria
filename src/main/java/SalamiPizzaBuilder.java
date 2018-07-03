@@ -7,11 +7,9 @@ public class SalamiPizzaBuilder extends PizzaBuilder{
 
     public void buildSauce() {
         pizza.setSauce("tomato");
-
     }
 
     public void buildTopping() {
         pizza.setTopping("salami");
-
     }
 }

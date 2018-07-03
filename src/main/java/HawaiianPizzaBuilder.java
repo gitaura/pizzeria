@@ -9,7 +9,7 @@ public class HawaiianPizzaBuilder extends PizzaBuilder {
     }
 
     public void buildTopping() {
-        pizza.setDough("dick");
+        pizza.setDough("thick");
 
     }
 }

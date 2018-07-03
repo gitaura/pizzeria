@@ -3,7 +3,16 @@ public class Pizza {
     private String topping;
     private String sauce;
 
-    public void setDough(String dought) {
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "dough='" + dough + '\'' +
+                ", topping='" + topping + '\'' +
+                ", sauce='" + sauce + '\'' +
+                '}';
+    }
+
+    public void setDough(String dough) {
         this.dough = dough;
     }
 

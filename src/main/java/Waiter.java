@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Waiter {
 
     private PizzaBuilder pizzaBuilder;
@@ -6,7 +8,14 @@ public class Waiter {
         this.pizzaBuilder = pizzaBuilder;
     }
 
-    public Pizza getPizza (){
+    public Pizza getPizza(){
+
+        pizzaBuilder.buildSauce();
+        pizzaBuilder.buildTopping();
+        pizzaBuilder.buildDough();
         return pizzaBuilder.getPizza();
     }
+
+
+
 }
